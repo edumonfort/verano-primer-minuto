@@ -1,0 +1,11 @@
+{
+  "prod.golpe.option": { "text": "Detener la tarea, llevarla a la sombra, refrescarla y avisar.", "kind": "product", "valId": "VAL-1", "status": "decided" },
+  "prod.golpe.step1": { "text": "Detener la tarea y llevarla a la sombra o a un lugar fresco", "kind": "product", "valId": "VAL-1", "status": "decided" },
+  "prod.golpe.step2": { "text": "Refrescarla con agua o ropa mojada", "kind": "product", "valId": "VAL-1", "status": "decided" },
+  "prod.golpe.step3": { "text": "Avisar; pedir ayuda de emergencia (112) si empeora o no responde", "kind": "product", "valId": "VAL-1", "status": "decided" },
+  "prod.garrapata.chip": { "text": "Retirarla con pinzas finas, tirando recto y firme; desinfectar la zona y vigilar los días siguientes. Consultar si hay síntomas.", "kind": "product", "valId": "VAL-2", "status": "decided" },
+  "prod.picadura.option": { "text": "Mantener la calma, sin movimientos bruscos, y pedir ayuda de emergencia (112) de inmediato.", "kind": "product", "valId": "VAL-3", "status": "decided" },
+  "prod.picadura.calma": { "text": "Mantener la calma, sin movimientos bruscos, y dejar que se vaya.", "kind": "product", "valId": "VAL-3", "status": "decided" },
+  "prod.prev4": { "text": "Estar atentos a la presencia de avispas y abejas en la zona de trabajo.", "kind": "product", "valId": "VAL-4", "status": "decided" },
+  "prod.distractor3": { "text": "Dejarlo para otro día.", "kind": "product", "valId": "VAL-10", "status": "decided" }
+}
