@@ -1,170 +1,851 @@
 {
-  "src.TIT": { "text": "Verano en ALERTA: Detecta, decide y actúa", "kind": "pptx", "source": "D1/D2", "status": "validated" },
-  "src.Q0": { "text": "¿Qué riesgo de verano os parece más fácil subestimar? el calor, las garrapatas, las picaduras o el exceso de confianza", "kind": "pptx", "source": "D2", "status": "validated" },
-  "src.Q0n": { "text": "No hay respuesta correcta ni incorrecta", "kind": "pptx", "source": "D2", "status": "validated" },
-
-  "src.P1": { "text": "Beber agua con frecuencia, aunque no tenga sed.", "kind": "pptx", "source": "D3 G1 · D5 G3", "status": "validated" },
-  "src.P2": { "text": "Planificar las tareas y las pausas según las condiciones climáticas.", "kind": "pptx", "source": "D3 G1 · D6 G4", "status": "validated" },
-  "src.P3": { "text": "Usar crema solar como medida habitual de protección.", "kind": "pptx", "source": "D4 G2", "status": "validated" },
-  "src.P4": { "text": "Consultar las alertas meteorológicas en la app de AEMET antes de trabajos en exterior.", "kind": "pptx", "source": "D4 G2 · D5 G3", "status": "validated" },
-  "src.P5": { "text": "Si trabajo en zonas con vegetación, usar ropa de manga larga, pantalón largo y ropa clara.", "kind": "pptx", "source": "D4 G2 · D6 G4", "status": "validated" },
-  "src.P6": { "text": "Al terminar la jornada en exterior, revisar bien el cuerpo por si hubiera garrapatas.", "kind": "pptx", "source": "D5 G3", "status": "validated" },
-
-  "src.A1": { "text": "Una persona está muy acalorada, confundida o desorientada.", "kind": "pptx", "source": "D6 G4", "status": "validated" },
-  "src.A2": { "text": "Tras una picadura, aparece hinchazón importante, mareo o dificultad para respirar.", "kind": "pptx", "source": "D3 G1 · D6 G4", "status": "validated" },
-  "src.A3": { "text": "Al final del trabajo, alguien detecta una posible garrapata adherida.", "kind": "pptx", "source": "D3 G1", "status": "validated" },
-
-  "src.E1": { "text": "Arrancar una garrapata con los dedos o aplicar aceite, alcohol o calor.", "kind": "pptx", "source": "D3 G1 · D5 G3", "status": "validated" },
-  "src.E2": { "text": "Hacer movimientos bruscos para espantar una avispa o abeja que se ha posado encima.", "kind": "pptx", "source": "D3 G1 · D6 G4", "status": "validated" },
-  "src.E3": { "text": "Seguir con el trabajo igual, aunque haya alerta de calor y condiciones muy exigentes.", "kind": "pptx", "source": "D4 G2 · D6 G4", "status": "validated" },
-  "src.E4": { "text": "Esperar a tener sed para empezar a hidratarse.", "kind": "pptx", "source": "D4 G2 · D5 G3", "status": "validated" },
-  "src.E5": { "text": "Quitar importancia a una picadura, aunque haya ahogo o malestar general.", "kind": "pptx", "source": "D4 G2 · D5 G3", "status": "validated" },
-
-  "src.S1": { "text": "Hay trabajo en exterior previsto. Llega una alerta meteorológica y las condiciones son exigentes. ¿Seguimos igual o cambiamos algo?", "kind": "pptx", "source": "D7", "status": "validated" },
-  "src.S2": { "text": "Una persona en exterior está muy acalorada, desorientada y empeora rápidamente.", "kind": "pptx", "source": "D8", "status": "validated" },
-  "src.S3": { "text": "Al terminar el trabajo, alguien nota una posible garrapata adherida.", "kind": "pptx", "source": "D9", "status": "validated" },
-  "src.S4": { "text": "Durante una tarea en exterior aparecen avispas/abejas. Una persona recibe una picadura.", "kind": "pptx", "source": "D10", "status": "validated" },
-
-  "src.QA": { "text": "¿Qué haríamos en el primer minuto?", "kind": "pptx", "source": "D7–D10", "status": "validated" },
-  "src.QB": { "text": "¿Qué error evitaríamos?", "kind": "pptx", "source": "D7–D10", "status": "validated" },
-  "src.QC": { "text": "¿Qué prevención habría ayudado?", "kind": "pptx", "source": "D7–D10", "status": "validated" },
-  "src.CMPq": { "text": "¿Qué compromiso hemos adquirido hoy?", "kind": "pptx", "source": "D11", "status": "validated" },
-  "src.CMP": { "text": "LLEVAR AGUA FRESCA, BEBER CON FRECUENCIA SIN ESPERAR A TENER CALOR", "kind": "pptx", "source": "D11", "status": "validated" },
-
-  "src.CAT-P": { "text": "Previene", "kind": "pptx", "source": "D3–D6", "status": "validated" },
-  "src.CAT-A": { "text": "Alerta / atención", "kind": "pptx", "source": "D3–D6", "status": "validated" },
-  "src.CAT-E": { "text": "Error a evitar", "kind": "pptx", "source": "D3–D6", "status": "validated" },
-
-  "src.T1": { "text": "Aviso de calor", "kind": "pptx-title", "source": "D7", "status": "validated" },
-  "src.T2": { "text": "Posible golpe de calor", "kind": "pptx-title", "source": "D8", "status": "validated" },
-  "src.T3": { "text": "Garrapata al final de la jornada", "kind": "pptx-title", "source": "D9", "status": "validated" },
-  "src.T4": { "text": "Abejas o avispas cerca", "kind": "pptx-title", "source": "D10", "status": "validated" },
-
-  "src.S1#Llega una alerta meteorológica": { "text": "Llega una alerta meteorológica", "kind": "pptx-fragment", "fragmentOf": "src.S1", "status": "validated" },
-  "src.S1#las condiciones son exigentes": { "text": "las condiciones son exigentes", "kind": "pptx-fragment", "fragmentOf": "src.S1", "status": "validated" },
-  "src.A1#muy acalorada": { "text": "muy acalorada", "kind": "pptx-fragment", "fragmentOf": "src.A1", "status": "validated" },
-  "src.A1#confundida o desorientada": { "text": "confundida o desorientada", "kind": "pptx-fragment", "fragmentOf": "src.A1", "status": "validated" },
-  "src.S2#empeora rápidamente": { "text": "empeora rápidamente", "kind": "pptx-fragment", "fragmentOf": "src.S2", "status": "validated" },
-  "src.S3#alguien nota una posible garrapata": { "text": "alguien nota una posible garrapata", "kind": "pptx-fragment", "fragmentOf": "src.S3", "status": "validated" },
-  "src.S3#Al terminar el trabajo": { "text": "Al terminar el trabajo", "kind": "pptx-fragment", "fragmentOf": "src.S3", "status": "validated" },
-  "src.S4#aparecen avispas/abejas": { "text": "aparecen avispas/abejas", "kind": "pptx-fragment", "fragmentOf": "src.S4", "status": "validated" },
-  "src.A2#hinchazón importante": { "text": "hinchazón importante", "kind": "pptx-fragment", "fragmentOf": "src.A2", "status": "validated" },
-  "src.A2#dificultad para respirar": { "text": "dificultad para respirar", "kind": "pptx-fragment", "fragmentOf": "src.A2", "status": "validated" },
-  "src.E3#Seguir con el trabajo igual": { "text": "Seguir con el trabajo igual", "kind": "pptx-fragment", "fragmentOf": "src.E3", "status": "validated" },
-  "src.Q0#pregunta": { "text": "¿Qué riesgo de verano os parece más fácil subestimar?", "kind": "pptx-fragment", "fragmentOf": "src.Q0", "status": "validated" },
-  "src.Q0#calor": { "text": "el calor", "kind": "pptx-fragment", "fragmentOf": "src.Q0", "status": "validated" },
-  "src.Q0#garrapatas": { "text": "las garrapatas", "kind": "pptx-fragment", "fragmentOf": "src.Q0", "status": "validated" },
-  "src.Q0#picaduras": { "text": "las picaduras", "kind": "pptx-fragment", "fragmentOf": "src.Q0", "status": "validated" },
-  "src.Q0#confianza": { "text": "el exceso de confianza", "kind": "pptx-fragment", "fragmentOf": "src.Q0", "status": "validated" },
-
-  "ui.play": { "text": "JUGAR", "kind": "ui", "status": "n/a" },
-  "ui.continue": { "text": "CONTINUAR", "kind": "ui", "status": "n/a" },
-  "ui.chapters": { "text": "CAPÍTULOS", "kind": "ui", "status": "n/a" },
-  "ui.settings": { "text": "AJUSTES", "kind": "ui", "status": "n/a" },
-  "ui.next": { "text": "SIGUIENTE", "kind": "ui", "status": "n/a" },
-  "ui.confirm": { "text": "CONFIRMAR", "kind": "ui", "status": "n/a" },
-  "ui.understood": { "text": "ENTENDIDO", "kind": "ui", "status": "n/a" },
-  "ui.skip": { "text": "SALTAR", "kind": "ui", "status": "n/a" },
-  "ui.pause": { "text": "PAUSA", "kind": "ui", "status": "n/a" },
-  "ui.resume": { "text": "CONTINUAR", "kind": "ui", "status": "n/a" },
-  "ui.exit": { "text": "SALIR AL MENÚ", "kind": "ui", "status": "n/a" },
-  "ui.restartChapter": { "text": "REPETIR CAPÍTULO", "kind": "ui", "status": "n/a" },
-  "ui.playAgain": { "text": "VOLVER A JUGAR", "kind": "ui", "status": "n/a" },
-  "ui.rewind": { "text": "REBOBINAR", "kind": "ui", "status": "n/a" },
-  "ui.assisted": { "text": "ASÍ SE HACE", "kind": "ui", "status": "n/a" },
-  "ui.helpOn": { "text": "AYUDA ACTIVADA", "kind": "ui", "status": "n/a" },
-  "ui.sign": { "text": "FIRMAR", "kind": "ui", "status": "n/a" },
-  "ui.signTap": { "text": "FIRMAR CON UN TOQUE", "kind": "ui", "status": "n/a" },
-  "ui.hold": { "text": "MANTÉN", "kind": "ui", "status": "n/a" },
-  "ui.tap": { "text": "TOCA", "kind": "ui", "status": "n/a" },
-  "ui.phase1": { "text": "1 · DETECTA", "kind": "ui", "status": "n/a" },
-  "ui.phase2": { "text": "2 · DECIDE", "kind": "ui", "status": "n/a" },
-  "ui.phase3": { "text": "3 · ACTÚA", "kind": "ui", "status": "n/a" },
-  "ui.versionB": { "text": "VERSIÓN B", "kind": "ui", "status": "n/a" },
-  "ui.chapterPill": { "text": "CAP. {n}/4 · {title}", "kind": "ui", "status": "n/a" },
-  "ui.points": { "text": "{n} PTS", "kind": "ui", "status": "n/a" },
-  "ui.notSignal": { "text": "No es una señal", "kind": "ui", "status": "n/a" },
-  "ui.notTick": { "text": "No es una garrapata", "kind": "ui", "status": "n/a" },
-  "ui.bruscos": { "text": "Movimiento brusco", "kind": "ui", "status": "n/a" },
-  "ui.timeUp": { "text": "SE ACABÓ EL PRIMER MINUTO", "kind": "ui", "status": "n/a" },
-  "ui.zonaVeg": { "text": "Zona de vegetación", "kind": "ui", "status": "n/a" },
-  "ui.masAvispas": { "text": "Hay más avispas cerca", "kind": "ui", "status": "n/a" },
-  "ui.meterHydration": { "text": "HIDRATACIÓN", "kind": "ui", "status": "n/a" },
-  "ui.meterSed": { "text": "SED", "kind": "ui", "status": "n/a" },
-  "ui.calma": { "text": "CALMA", "kind": "ui", "status": "n/a" },
-  "ui.hintF1": { "text": "Toca lo que te parezca una señal", "kind": "ui", "status": "n/a" },
-  "ui.hintF2": { "text": "Arrastra tu decisión hasta la persona", "kind": "ui", "status": "n/a" },
-  "ui.hintTrap": { "text": "Cada error se repasa con su explicación", "kind": "ui", "status": "n/a" },
-  "ui.demo1": { "text": "Toca cuando el anillo llegue a la diana", "kind": "ui", "status": "n/a" },
-  "ui.demo2": { "text": "Mantén el dedo en la diana hasta completar el arco", "kind": "ui", "status": "n/a" },
-  "ui.demo3": { "text": "Desliza de lado a lado para girar y revisar", "kind": "ui", "status": "n/a" },
-  "ui.demo4": { "text": "Mantén el dedo quieto en la diana, sin deslizar", "kind": "ui", "status": "n/a" },
-  "ui.q0Chosen": { "text": "Elegiste: {option}", "kind": "ui", "status": "n/a" },
-  "ui.rotate": { "text": "Gira el móvil a vertical", "kind": "ui", "status": "n/a" },
-  "ui.loading": { "text": "CARGANDO", "kind": "ui", "status": "n/a" },
-  "ui.loadError": { "text": "No se ha podido cargar.", "kind": "ui", "status": "n/a" },
-  "ui.retry": { "text": "REINTENTAR", "kind": "ui", "status": "n/a" },
-  "ui.noWebgl": { "text": "Este dispositivo no admite el juego", "kind": "ui", "status": "n/a" },
-  "ui.settings.sound": { "text": "SONIDO", "kind": "ui", "status": "n/a" },
-  "ui.settings.music": { "text": "MÚSICA", "kind": "ui", "status": "n/a" },
-  "ui.settings.vibration": { "text": "VIBRACIÓN", "kind": "ui", "status": "n/a" },
-  "ui.settings.noClock": { "text": "SIN RELOJ", "kind": "ui", "status": "n/a" },
-  "ui.settings.reduceMotion": { "text": "MOVIMIENTO REDUCIDO", "kind": "ui", "status": "n/a" },
-  "ui.settings.shapes": { "text": "FORMAS REFORZADAS", "kind": "ui", "status": "n/a" },
-  "ui.settings.quality": { "text": "CALIDAD GRÁFICA", "kind": "ui", "status": "n/a" },
-  "ui.settings.reset": { "text": "BORRAR PROGRESO", "kind": "ui", "status": "n/a" },
-  "ui.stars.detect": { "text": "Detecta", "kind": "ui", "status": "n/a" },
-  "ui.stars.decide": { "text": "Decide", "kind": "ui", "status": "n/a" },
-  "ui.stars.act": { "text": "Actúa", "kind": "ui", "status": "n/a" },
-  "ui.review": { "text": "Repaso", "kind": "ui", "status": "n/a" },
-  "ui.assistedDone": { "text": "Superado con ayuda", "kind": "ui", "status": "n/a" },
-  "ui.tip1": { "text": "Mira con atención antes de decidir", "kind": "ui", "status": "n/a" },
-  "ui.tip2": { "text": "Cada segundo cuenta", "kind": "ui", "status": "n/a" },
-  "ui.tip3": { "text": "Un error también enseña", "kind": "ui", "status": "n/a" },
-  "ui.about": { "text": "ACERCA DE", "kind": "ui", "status": "n/a" },
-  "ui.disclaimer": { "text": "Criterio provisional de juego de prueba; no sustituye formación/protocolo oficial.", "kind": "ui", "status": "n/a" },
-  "ui.errorTag": { "text": "ERROR A EVITAR", "kind": "ui", "status": "n/a" },
-
-  "ui.subtitle": { "text": "Primer minuto", "kind": "ui", "status": "n/a" },
-  "ui.clockLabel": { "text": "PRIMER MINUTO", "kind": "ui", "status": "n/a" },
-  "ui.cat.prevent": { "text": "PREVIENE", "kind": "ui", "status": "n/a" },
-  "ui.cat.alert": { "text": "ALERTA / ATENCIÓN", "kind": "ui", "status": "n/a" },
-  "ui.cat.error": { "text": "ERROR A EVITAR", "kind": "ui", "status": "n/a" },
-  "ui.cat.signal": { "text": "SEÑAL", "kind": "ui", "status": "n/a" },
-  "ui.instr.f1": { "text": "TOCA LAS SEÑALES", "kind": "ui", "status": "n/a" },
-  "ui.instr.f2": { "text": "ARRASTRA TU DECISIÓN HASTA LA PERSONA", "kind": "ui", "status": "n/a" },
-  "ui.instr.ch1": { "text": "TOCA CUANDO EL ANILLO LLEGUE A LA DIANA", "kind": "ui", "status": "n/a" },
-  "ui.instr.ch2": { "text": "MANTÉN EL DEDO EN LA DIANA", "kind": "ui", "status": "n/a" },
-  "ui.instr.ch3": { "text": "DESLIZA PARA GIRAR · TOCA LO SOSPECHOSO", "kind": "ui", "status": "n/a" },
-  "ui.instr.ch4": { "text": "MANTÉN EL DEDO · SIN MOVIMIENTOS BRUSCOS", "kind": "ui", "status": "n/a" },
-  "ui.tapToContinue": { "text": "TOCA PARA SEGUIR", "kind": "ui", "status": "n/a" },
-  "ui.q0Skipped": { "text": "sin respuesta", "kind": "ui", "status": "n/a" },
-  "ui.quality.auto": { "text": "AUTO", "kind": "ui", "status": "n/a" },
-  "ui.quality.high": { "text": "ALTA", "kind": "ui", "status": "n/a" },
-  "ui.quality.medium": { "text": "MEDIA", "kind": "ui", "status": "n/a" },
-  "ui.quality.low": { "text": "BAJA", "kind": "ui", "status": "n/a" },
-  "ui.on": { "text": "SÍ", "kind": "ui", "status": "n/a" },
-  "ui.off": { "text": "NO", "kind": "ui", "status": "n/a" },
-  "ui.back": { "text": "VOLVER", "kind": "ui", "status": "n/a" },
-  "ui.finalTitle": { "text": "RESUMEN", "kind": "ui", "status": "n/a" },
-  "ui.totalStars": { "text": "ESTRELLAS", "kind": "ui", "status": "n/a" },
-  "ui.totalPoints": { "text": "PUNTOS", "kind": "ui", "status": "n/a" },
-  "ui.errorsMade": { "text": "Errores cometidos", "kind": "ui", "status": "n/a" },
-  "ui.signalsFound": { "text": "Señales detectadas", "kind": "ui", "status": "n/a" },
-  "ui.noErrors": { "text": "Ningún error", "kind": "ui", "status": "n/a" },
-  "ui.pts.f1": { "text": "DETECTA", "kind": "ui", "status": "n/a" },
-  "ui.pts.f2": { "text": "DECIDE", "kind": "ui", "status": "n/a" },
-  "ui.pts.f3": { "text": "ACTÚA", "kind": "ui", "status": "n/a" },
-  "ui.pts.time": { "text": "TIEMPO", "kind": "ui", "status": "n/a" },
-  "ui.station": { "text": "ESTACIÓN {n}/3", "kind": "ui", "status": "n/a" },
-  "ui.commitHold": { "text": "MANTÉN PARA LLENAR LA BOTELLA", "kind": "ui", "status": "n/a" },
-  "ui.commitSign": { "text": "FIRMA SOBRE LA LÍNEA", "kind": "ui", "status": "n/a" },
-  "ui.warnings": { "text": "AVISOS", "kind": "ui", "status": "n/a" },
-  "ui.credits": { "text": "Créditos", "kind": "ui", "status": "n/a" },
-  "ui.creditsText": { "text": "Modelos, texturas e iluminación CC0 de Poly Haven; modelos propios hechos en Blender; personajes generados con Tripo; sonido sintetizado propio; tipografía Barlow Condensed (OFL).", "kind": "ui", "status": "n/a" },
-  "ui.chapterLabel": { "text": "CAPÍTULO {n}", "kind": "ui", "status": "n/a" },
-  "ui.signalsHidden": { "text": "Quedan señales por descubrir", "kind": "ui", "status": "n/a" },
-  "ui.decideFirst": { "text": "Elige una opción", "kind": "ui", "status": "n/a" },
-  "ui.chaptersTitle": { "text": "CAPÍTULOS", "kind": "ui", "status": "n/a" },
-  "ui.close": { "text": "CERRAR", "kind": "ui", "status": "n/a" }
+  "src.TIT": {
+    "text": "Verano en ALERTA: Detecta, decide y actúa",
+    "kind": "pptx",
+    "source": "D1/D2",
+    "status": "validated"
+  },
+  "src.Q0": {
+    "text": "¿Qué riesgo de verano os parece más fácil subestimar? el calor, las garrapatas, las picaduras o el exceso de confianza",
+    "kind": "pptx",
+    "source": "D2",
+    "status": "validated"
+  },
+  "src.Q0n": {
+    "text": "No hay respuesta correcta ni incorrecta",
+    "kind": "pptx",
+    "source": "D2",
+    "status": "validated"
+  },
+  "src.P1": {
+    "text": "Beber agua con frecuencia, aunque no tenga sed.",
+    "kind": "pptx",
+    "source": "D3 G1 · D5 G3",
+    "status": "validated"
+  },
+  "src.P2": {
+    "text": "Planificar las tareas y las pausas según las condiciones climáticas.",
+    "kind": "pptx",
+    "source": "D3 G1 · D6 G4",
+    "status": "validated"
+  },
+  "src.P3": {
+    "text": "Usar crema solar como medida habitual de protección.",
+    "kind": "pptx",
+    "source": "D4 G2",
+    "status": "validated"
+  },
+  "src.P4": {
+    "text": "Consultar las alertas meteorológicas en la app de AEMET antes de trabajos en exterior.",
+    "kind": "pptx",
+    "source": "D4 G2 · D5 G3",
+    "status": "validated"
+  },
+  "src.P5": {
+    "text": "Si trabajo en zonas con vegetación, usar ropa de manga larga, pantalón largo y ropa clara.",
+    "kind": "pptx",
+    "source": "D4 G2 · D6 G4",
+    "status": "validated"
+  },
+  "src.P6": {
+    "text": "Al terminar la jornada en exterior, revisar bien el cuerpo por si hubiera garrapatas.",
+    "kind": "pptx",
+    "source": "D5 G3",
+    "status": "validated"
+  },
+  "src.A1": {
+    "text": "Una persona está muy acalorada, confundida o desorientada.",
+    "kind": "pptx",
+    "source": "D6 G4",
+    "status": "validated"
+  },
+  "src.A2": {
+    "text": "Tras una picadura, aparece hinchazón importante, mareo o dificultad para respirar.",
+    "kind": "pptx",
+    "source": "D3 G1 · D6 G4",
+    "status": "validated"
+  },
+  "src.A3": {
+    "text": "Al final del trabajo, alguien detecta una posible garrapata adherida.",
+    "kind": "pptx",
+    "source": "D3 G1",
+    "status": "validated"
+  },
+  "src.E1": {
+    "text": "Arrancar una garrapata con los dedos o aplicar aceite, alcohol o calor.",
+    "kind": "pptx",
+    "source": "D3 G1 · D5 G3",
+    "status": "validated"
+  },
+  "src.E2": {
+    "text": "Hacer movimientos bruscos para espantar una avispa o abeja que se ha posado encima.",
+    "kind": "pptx",
+    "source": "D3 G1 · D6 G4",
+    "status": "validated"
+  },
+  "src.E3": {
+    "text": "Seguir con el trabajo igual, aunque haya alerta de calor y condiciones muy exigentes.",
+    "kind": "pptx",
+    "source": "D4 G2 · D6 G4",
+    "status": "validated"
+  },
+  "src.E4": {
+    "text": "Esperar a tener sed para empezar a hidratarse.",
+    "kind": "pptx",
+    "source": "D4 G2 · D5 G3",
+    "status": "validated"
+  },
+  "src.E5": {
+    "text": "Quitar importancia a una picadura, aunque haya ahogo o malestar general.",
+    "kind": "pptx",
+    "source": "D4 G2 · D5 G3",
+    "status": "validated"
+  },
+  "src.S1": {
+    "text": "Hay trabajo en exterior previsto. Llega una alerta meteorológica y las condiciones son exigentes. ¿Seguimos igual o cambiamos algo?",
+    "kind": "pptx",
+    "source": "D7",
+    "status": "validated"
+  },
+  "src.S2": {
+    "text": "Una persona en exterior está muy acalorada, desorientada y empeora rápidamente.",
+    "kind": "pptx",
+    "source": "D8",
+    "status": "validated"
+  },
+  "src.S3": {
+    "text": "Al terminar el trabajo, alguien nota una posible garrapata adherida.",
+    "kind": "pptx",
+    "source": "D9",
+    "status": "validated"
+  },
+  "src.S4": {
+    "text": "Durante una tarea en exterior aparecen avispas/abejas. Una persona recibe una picadura.",
+    "kind": "pptx",
+    "source": "D10",
+    "status": "validated"
+  },
+  "src.QA": {
+    "text": "¿Qué haríamos en el primer minuto?",
+    "kind": "pptx",
+    "source": "D7–D10",
+    "status": "validated"
+  },
+  "src.QB": {
+    "text": "¿Qué error evitaríamos?",
+    "kind": "pptx",
+    "source": "D7–D10",
+    "status": "validated"
+  },
+  "src.QC": {
+    "text": "¿Qué prevención habría ayudado?",
+    "kind": "pptx",
+    "source": "D7–D10",
+    "status": "validated"
+  },
+  "src.CMPq": {
+    "text": "¿Qué compromiso hemos adquirido hoy?",
+    "kind": "pptx",
+    "source": "D11",
+    "status": "validated"
+  },
+  "src.CMP": {
+    "text": "LLEVAR AGUA FRESCA, BEBER CON FRECUENCIA SIN ESPERAR A TENER CALOR",
+    "kind": "pptx",
+    "source": "D11",
+    "status": "validated"
+  },
+  "src.CAT-P": {
+    "text": "Previene",
+    "kind": "pptx",
+    "source": "D3–D6",
+    "status": "validated"
+  },
+  "src.CAT-A": {
+    "text": "Alerta / atención",
+    "kind": "pptx",
+    "source": "D3–D6",
+    "status": "validated"
+  },
+  "src.CAT-E": {
+    "text": "Error a evitar",
+    "kind": "pptx",
+    "source": "D3–D6",
+    "status": "validated"
+  },
+  "src.T1": {
+    "text": "Aviso de calor",
+    "kind": "pptx-title",
+    "source": "D7",
+    "status": "validated"
+  },
+  "src.T2": {
+    "text": "Posible golpe de calor",
+    "kind": "pptx-title",
+    "source": "D8",
+    "status": "validated"
+  },
+  "src.T3": {
+    "text": "Garrapata al final de la jornada",
+    "kind": "pptx-title",
+    "source": "D9",
+    "status": "validated"
+  },
+  "src.T4": {
+    "text": "Abejas o avispas cerca",
+    "kind": "pptx-title",
+    "source": "D10",
+    "status": "validated"
+  },
+  "src.S1#Llega una alerta meteorológica": {
+    "text": "Llega una alerta meteorológica",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.S1",
+    "status": "validated"
+  },
+  "src.S1#las condiciones son exigentes": {
+    "text": "las condiciones son exigentes",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.S1",
+    "status": "validated"
+  },
+  "src.A1#muy acalorada": {
+    "text": "muy acalorada",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.A1",
+    "status": "validated"
+  },
+  "src.A1#confundida o desorientada": {
+    "text": "confundida o desorientada",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.A1",
+    "status": "validated"
+  },
+  "src.S2#empeora rápidamente": {
+    "text": "empeora rápidamente",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.S2",
+    "status": "validated"
+  },
+  "src.S3#alguien nota una posible garrapata": {
+    "text": "alguien nota una posible garrapata",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.S3",
+    "status": "validated"
+  },
+  "src.S3#Al terminar el trabajo": {
+    "text": "Al terminar el trabajo",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.S3",
+    "status": "validated"
+  },
+  "src.S4#aparecen avispas/abejas": {
+    "text": "aparecen avispas/abejas",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.S4",
+    "status": "validated"
+  },
+  "src.A2#hinchazón importante": {
+    "text": "hinchazón importante",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.A2",
+    "status": "validated"
+  },
+  "src.A2#dificultad para respirar": {
+    "text": "dificultad para respirar",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.A2",
+    "status": "validated"
+  },
+  "src.E3#Seguir con el trabajo igual": {
+    "text": "Seguir con el trabajo igual",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.E3",
+    "status": "validated"
+  },
+  "src.Q0#pregunta": {
+    "text": "¿Qué riesgo de verano os parece más fácil subestimar?",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.Q0",
+    "status": "validated"
+  },
+  "src.Q0#calor": {
+    "text": "el calor",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.Q0",
+    "status": "validated"
+  },
+  "src.Q0#garrapatas": {
+    "text": "las garrapatas",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.Q0",
+    "status": "validated"
+  },
+  "src.Q0#picaduras": {
+    "text": "las picaduras",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.Q0",
+    "status": "validated"
+  },
+  "src.Q0#confianza": {
+    "text": "el exceso de confianza",
+    "kind": "pptx-fragment",
+    "fragmentOf": "src.Q0",
+    "status": "validated"
+  },
+  "ui.play": {
+    "text": "JUGAR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.continue": {
+    "text": "CONTINUAR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.chapters": {
+    "text": "CAPÍTULOS",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.settings": {
+    "text": "AJUSTES",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.next": {
+    "text": "SIGUIENTE",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.confirm": {
+    "text": "CONFIRMAR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.understood": {
+    "text": "ENTENDIDO",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.skip": {
+    "text": "SALTAR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.pause": {
+    "text": "PAUSA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.resume": {
+    "text": "CONTINUAR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.exit": {
+    "text": "SALIR AL MENÚ",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.restartChapter": {
+    "text": "REPETIR CAPÍTULO",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.playAgain": {
+    "text": "VOLVER A JUGAR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.rewind": {
+    "text": "REBOBINAR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.assisted": {
+    "text": "ASÍ SE HACE",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.helpOn": {
+    "text": "AYUDA ACTIVADA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.sign": {
+    "text": "FIRMAR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.signTap": {
+    "text": "FIRMAR CON UN TOQUE",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.hold": {
+    "text": "MANTÉN",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.tap": {
+    "text": "TOCA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.phase1": {
+    "text": "1 · DETECTA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.phase2": {
+    "text": "2 · DECIDE",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.phase3": {
+    "text": "3 · ACTÚA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.versionB": {
+    "text": "VERSIÓN B",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.chapterPill": {
+    "text": "CAP. {n}/4 · {title}",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.points": {
+    "text": "{n} PTS",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.notSignal": {
+    "text": "No es una señal",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.notTick": {
+    "text": "No es una garrapata",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.bruscos": {
+    "text": "Movimiento brusco",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.timeUp": {
+    "text": "SE ACABÓ EL PRIMER MINUTO",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.zonaVeg": {
+    "text": "Zona de vegetación",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.masAvispas": {
+    "text": "Hay más avispas cerca",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.meterHydration": {
+    "text": "HIDRATACIÓN",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.meterSed": {
+    "text": "SED",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.calma": {
+    "text": "CALMA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.hintF1": {
+    "text": "Toca lo que te parezca una señal",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.hintF2": {
+    "text": "Arrastra tu decisión hasta la persona",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.hintTrap": {
+    "text": "Cada error se repasa con su explicación",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.demo1": {
+    "text": "Toca cuando el anillo llegue a la diana",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.demo2": {
+    "text": "Mantén el dedo en la diana hasta completar el arco",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.demo3": {
+    "text": "Desliza de lado a lado para girar y revisar",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.demo4": {
+    "text": "Mantén el dedo quieto en la diana, sin deslizar",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.q0Chosen": {
+    "text": "Elegiste: {option}",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.rotate": {
+    "text": "Gira el móvil a vertical",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.loading": {
+    "text": "CARGANDO",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.loadError": {
+    "text": "No se ha podido cargar.",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.retry": {
+    "text": "REINTENTAR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.noWebgl": {
+    "text": "Este dispositivo no admite el juego",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.settings.sound": {
+    "text": "SONIDO",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.settings.music": {
+    "text": "MÚSICA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.settings.vibration": {
+    "text": "VIBRACIÓN",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.settings.noClock": {
+    "text": "SIN RELOJ",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.settings.reduceMotion": {
+    "text": "MOVIMIENTO REDUCIDO",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.settings.shapes": {
+    "text": "FORMAS REFORZADAS",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.settings.quality": {
+    "text": "CALIDAD GRÁFICA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.settings.reset": {
+    "text": "BORRAR PROGRESO",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.stars.detect": {
+    "text": "Detecta",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.stars.decide": {
+    "text": "Decide",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.stars.act": {
+    "text": "Actúa",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.review": {
+    "text": "Repaso",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.assistedDone": {
+    "text": "Superado con ayuda",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.tip1": {
+    "text": "Mira con atención antes de decidir",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.tip2": {
+    "text": "Cada segundo cuenta",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.tip3": {
+    "text": "Un error también enseña",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.about": {
+    "text": "ACERCA DE",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.disclaimer": {
+    "text": "Criterio provisional de juego de prueba; no sustituye formación/protocolo oficial.",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.errorTag": {
+    "text": "ERROR A EVITAR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.subtitle": {
+    "text": "Primer minuto",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.clockLabel": {
+    "text": "PRIMER MINUTO",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.cat.prevent": {
+    "text": "PREVIENE",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.cat.alert": {
+    "text": "ALERTA / ATENCIÓN",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.cat.error": {
+    "text": "ERROR A EVITAR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.cat.signal": {
+    "text": "SEÑAL",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.instr.f1": {
+    "text": "TOCA LAS SEÑALES",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.instr.f2": {
+    "text": "ARRASTRA TU DECISIÓN HASTA LA PERSONA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.instr.ch1": {
+    "text": "TOCA CUANDO EL ANILLO LLEGUE A LA DIANA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.instr.ch2": {
+    "text": "MANTÉN EL DEDO EN LA DIANA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.instr.ch3": {
+    "text": "DESLIZA PARA GIRAR · TOCA LO SOSPECHOSO",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.instr.ch4": {
+    "text": "MANTÉN EL DEDO · SIN MOVIMIENTOS BRUSCOS",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.tapToContinue": {
+    "text": "TOCA PARA SEGUIR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.q0Skipped": {
+    "text": "sin respuesta",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.quality.auto": {
+    "text": "AUTO",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.quality.high": {
+    "text": "ALTA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.quality.medium": {
+    "text": "MEDIA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.quality.low": {
+    "text": "BAJA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.on": {
+    "text": "SÍ",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.off": {
+    "text": "NO",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.back": {
+    "text": "VOLVER",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.finalTitle": {
+    "text": "RESUMEN",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.totalStars": {
+    "text": "ESTRELLAS",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.totalPoints": {
+    "text": "PUNTOS",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.errorsMade": {
+    "text": "Errores cometidos",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.signalsFound": {
+    "text": "Señales detectadas",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.noErrors": {
+    "text": "Ningún error",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.pts.f1": {
+    "text": "DETECTA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.pts.f2": {
+    "text": "DECIDE",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.pts.f3": {
+    "text": "ACTÚA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.pts.time": {
+    "text": "TIEMPO",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.station": {
+    "text": "ESTACIÓN {n}/3",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.commitHold": {
+    "text": "MANTÉN PARA LLENAR LA BOTELLA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.commitSign": {
+    "text": "FIRMA SOBRE LA LÍNEA",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.warnings": {
+    "text": "AVISOS",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.credits": {
+    "text": "Créditos",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.creditsText": {
+    "text": "Modelos, texturas e iluminación CC0 de Poly Haven; modelos propios hechos en Blender; personajes generados con Tripo; sonido sintetizado propio; tipografía Barlow Condensed (OFL).",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.chapterLabel": {
+    "text": "CAPÍTULO {n}",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.signalsHidden": {
+    "text": "Quedan señales por descubrir",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.decideFirst": {
+    "text": "Elige una opción",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.chaptersTitle": {
+    "text": "CAPÍTULOS",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.close": {
+    "text": "CERRAR",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.hotspotLabel": {
+    "text": "Elemento de la escena {n}",
+    "kind": "ui",
+    "status": "n/a"
+  },
+  "ui.noClockHint": {
+    "text": "¿Necesitas más tiempo? Activa SIN RELOJ en PAUSA → AJUSTES.",
+    "kind": "ui",
+    "status": "n/a"
+  }
 }
